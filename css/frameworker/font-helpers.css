@@ -1,0 +1,64 @@
+/*	FLEXIE FRAMEWORK	*/
+/*	PABLO E. LUJAMBIO 	*/
+/*  FONT-HELPERS 		*/
+
+html,
+body{
+	font-size:62.5%;
+}
+h1{ font-size: -webkit-calc(24px * 3); font-size: calc(24px * 3); }
+h2{ font-size: -webkit-calc(24px * 2); font-size: calc(24px * 2); }
+h3{ font-size: -webkit-calc(24px * 1.5); font-size: calc(24px * 1.5); }
+h4{ font-size: -webkit-calc(24px * 1); font-size: calc(24px * 1); }
+h5{ font-size: -webkit-calc(24px * .80); font-size: calc(24px * .80); }
+h6{ font-size: -webkit-calc(24px * .75); font-size: calc(24px * .75); }
+
+p { font-size: -webkit-calc(24px * 1); font-size: calc(24px * 1); }
+label { font-size: -webkit-calc(24px * .5) ; font-size: calc(24px * .5) ; }
+
+@media screen and (max-width:1024px){
+
+	h1{ font-size: -webkit-calc(18px * 3); font-size: calc(18px * 3); }
+	h2{ font-size: -webkit-calc(18px * 2); font-size: calc(18px * 2); }
+	h3{ font-size: -webkit-calc(18px * 1.5); font-size: calc(18px * 1.5); }
+	h4{ font-size: -webkit-calc(18px * 1); font-size: calc(18px * 1); }
+	h5{ font-size: -webkit-calc(18px * .80); font-size: calc(18px * .80); }
+	h6{ font-size: -webkit-calc(18px * .75); font-size: calc(18px * .75); }
+
+	p { font-size: -webkit-calc(18px * 1); font-size: calc(18px * 1); }
+	label { font-size: -webkit-calc(18px * .5) ; font-size: calc(18px * .5) ; }	
+
+}
+@media screen and (max-width:640px){
+	h1{ font-size: -webkit-calc(14px * 3); font-size: calc(14px * 3); }
+	h2{ font-size: -webkit-calc(14px * 2); font-size: calc(14px * 2); }
+	h3{ font-size: -webkit-calc(14px * 1.5); font-size: calc(14px * 1.5); }
+	h4{ font-size: -webkit-calc(14px * 1); font-size: calc(14px * 1); }
+	h5{ font-size: -webkit-calc(14px * .80); font-size: calc(14px * .80); }
+	h6{ font-size: -webkit-calc(14px * .75); font-size: calc(14px * .75); }
+
+	p { font-size: -webkit-calc(14px * 1); font-size: calc(14px * 1); }
+	label { font-size: -webkit-calc(14px * .75) ; font-size: calc(14px * .75) ; }
+}
+@media screen and (max-width:440px){
+	h1{ font-size: -webkit-calc(14px * 2); font-size: calc(14px * 2); }
+	h2{ font-size: -webkit-calc(14px * 1.5); font-size: calc(14px * 1.5); }
+	h3{ font-size: -webkit-calc(14px * 1.25); font-size: calc(14px * 1.25); }
+	h4{ font-size: -webkit-calc(14px * 1); font-size: calc(14px * 1); }
+	h5{ font-size: -webkit-calc(14px * .80); font-size: calc(14px * .80); }
+	h6{ font-size: -webkit-calc(14px * .75); font-size: calc(14px * .75); }
+
+	p { font-size: -webkit-calc(14px * 1); font-size: calc(14px * 1); }
+	label { font-size: -webkit-calc(14px * .75) ; font-size: calc(14px * .75) ; }
+}
+
+.text-left{
+	text-align:left;
+}
+.text-right{
+	text-align:right;
+}
+.text-center{
+	text-align:center;
+}
+/*# sourceMappingURL=maps/font-helpers.css.map */

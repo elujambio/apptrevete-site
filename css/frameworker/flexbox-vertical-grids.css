@@ -1,0 +1,51 @@
+/*	FLEXIE FRAMEWORK			*/
+/*	PABLO E. LUJAMBIO 			*/
+/*  VERTICAL GRID SYSTEM 	 	*/
+	.v-l-12{ height: 100%;}
+	.v-l-11{ height: -webkit-calc(8.333% * 11); height: calc(8.333% * 11);}
+	.v-l-10{ height: -webkit-calc(8.333% * 10); height: calc(8.333% * 10);}
+	.v-l-9 { height: -webkit-calc(8.333% * 9); height: calc(8.333% * 9); }
+	.v-l-8 { height: -webkit-calc(8.333% * 8); height: calc(8.333% * 8); }
+	.v-l-7 { height: -webkit-calc(8.333% * 7); height: calc(8.333% * 7); }
+	.v-l-6 { height: 50%; }
+	.v-l-5 { height: -webkit-calc(8.333% * 5); height: calc(8.333% * 5); }
+	.v-l-4 { height: -webkit-calc(8.333% * 4); height: calc(8.333% * 4); }
+	.v-l-3 { height: -webkit-calc(8.333% * 3); height: calc(8.333% * 3); }
+	.v-l-2 { height: -webkit-calc(8.333% * 2); height: calc(8.333% * 2); }
+	.v-l-1 { height: -webkit-calc(8.333% * 1); height: calc(8.333% * 1); }
+	.v-l-0 { height: -webkit-calc(8.333% * 0); height: calc(8.333% * 0); }
+	
+@media screen and (max-width:1024px){
+	.v-m-12{ height: 100%;}
+	.v-m-11{ height: -webkit-calc(8.333% * 11); height: calc(8.333% * 11);}
+	.v-m-10{ height: -webkit-calc(8.333% * 10); height: calc(8.333% * 10);}
+	.v-m-9 { height: -webkit-calc(8.333% * 9); height: calc(8.333% * 9); }
+	.v-m-8 { height: -webkit-calc(8.333% * 8); height: calc(8.333% * 8); }
+	.v-m-7 { height: -webkit-calc(8.333% * 7); height: calc(8.333% * 7); }
+	.v-m-6 { height: 50%; }
+	.v-m-5 { height: -webkit-calc(8.333% * 5); height: calc(8.333% * 5); }
+	.v-m-4 { height: -webkit-calc(8.333% * 4); height: calc(8.333% * 4); }
+	.v-m-3 { height: -webkit-calc(8.333% * 3); height: calc(8.333% * 3); }
+	.v-m-2 { height: -webkit-calc(8.333% * 2); height: calc(8.333% * 2); }
+	.v-m-1 { height: -webkit-calc(8.333% * 1); height: calc(8.333% * 1); }
+	.v-m-0 { height: -webkit-calc(8.333% * 0); height: calc(8.333% * 0); }
+}
+
+@media screen and (max-width:640px){
+	.v-s-12{ height: 100%;}
+	.v-s-11{ height: -webkit-calc(8.333% * 11); height: calc(8.333% * 11);}
+	.v-s-10{ height: -webkit-calc(8.333% * 10); height: calc(8.333% * 10);}
+	.v-s-9 { height: -webkit-calc(8.333% * 9); height: calc(8.333% * 9); }
+	.v-s-8 { height: -webkit-calc(8.333% * 8); height: calc(8.333% * 8); }
+	.v-s-7 { height: -webkit-calc(8.333% * 7); height: calc(8.333% * 7); }
+	.v-s-6 { height: 50%; }
+	.v-s-5 { height: -webkit-calc(8.333% * 5); height: calc(8.333% * 5); }
+	.v-s-4 { height: -webkit-calc(8.333% * 4); height: calc(8.333% * 4); }
+	.v-s-3 { height: -webkit-calc(8.333% * 3); height: calc(8.333% * 3); }
+	.v-s-2 { height: -webkit-calc(8.333% * 2); height: calc(8.333% * 2); }
+	.v-s-1 { height: -webkit-calc(8.333% * 1); height: calc(8.333% * 1); }
+	.v-s-0 { height: -webkit-calc(8.333% * 0); height: calc(8.333% * 0); }
+}
+
+
+/*# sourceMappingURL=maps/flexbox-vertical-grids.css.map */

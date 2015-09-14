@@ -1,0 +1,37 @@
+/*	APPTREVETE SITE 	*/
+/*	PABLO E. LUJAMBIO 	*/
+/*  LOCAL.CSS 			*/
+
+.navbar{
+	position:fixed;
+	z-index:100;
+}
+.black-overlay{
+	position:absolute;
+	background-color:rgba(0,0,0,.75);
+}
+#c{
+	position:absolute;
+	top:0%;
+}
+#section-1{
+	background:url(../img/bg-01-small.jpg);
+	background-position:center bottom;
+	background-size:cover;
+}
+#section-1 img{
+}
+#section-3{
+	background:url(../img/bg-02.svg);
+}
+#section-4{
+}
+
+#section-5{
+	background:url(../img/bg-03.svg);
+}
+/*#section-5{
+	background:url(../img/bg-04.svg), rgb(205, 220, 57);
+	background-position:center bottom;
+}
+*/
