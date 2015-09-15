@@ -1,0 +1,20 @@
+/*	APPTREVETE SITE 	*/
+/*	PABLO E. LUJAMBIO 	*/
+/*  MENU-ANIMATION.CSS 	*/
+
+@keyframes forth{
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(-95%);
+    }	
+}
+@keyframes back{
+    0%{
+        transform:translateX(-95%);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}

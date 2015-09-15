@@ -20,73 +20,193 @@
 	<link rel="stylesheet" type="text/css" href="css/frameworker/material-colors.css">
 <!-- Framework CSS END -->
 <!-- One Page Scroll -->
-	<link rel="stylesheet" type="text/css" href="css/one-page-scroll/onepage-scroll.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/one-page-scroll/onepage-scroll.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/full-page/jquery.fullPage.css">
+
 <!-- One Page Scroll END -->
 <!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/global.css">
 	<link rel="stylesheet" type="text/css" href="css/local.css">
+	<link rel="stylesheet" type="text/css" href="css/menu-animation.css">	
 <!-- CSS END -->
 </head>
 <body class="grey-800">
-<div class="main">
+<div class="flexie row l-12 p-t-l p-r-l p-b-l major-end minor-between" id="navbar">
+	<div class="h-m w-m" id="menu-container">
+		<img src="img/menu.svg" class="h-m" id="menu-button">
+	</div>
+</div>
+
+<div class="flexie col l-12 v-l-12" id="menu">
+	<div class="flexie minor-start col l-6 m-8 s-11">
+		<a id="link-1" class="grey-900" href="#render-1"><h2>APPTRÉVETE</h2></a>
+		<a id="link-2" class="grey-900" href="#prueba"><h2>PONTE A PRUEBA</h2></a>
+		<a id="link-3" class="grey-900" href="#section-2"><h2>¿EN QUÉ CONSISTE?</h2></a>
+		<a id="link-4" class="grey-900" href="#section-7"><h2>SUSCRÍBETE</h2></a>
+		<a class="red" target="_blank" href="http://nuva.rocks"><label>Hecho por:</label><h2>NUVA</h2></a>
+	</div>
+</div>
+
+<div class="main" id="main">
 	<!-- SECTION 1 START -->
+<div class="flexie row p-t-l p-l-l p-b-l major-start minor-between" id="social">
+	<div class="row h-m icons l-6">
+		<a class="h-m icons" target="_blank" href="https://www.facebook.com/Apptrevete?fref=ts"><img class="h-m" src="img/facebook-glyph.svg"></a>
+		<a class="h-m icons p-l-xl" target="_blank" href="https://twitter.com/Apptrevete"><img class="h-m" src="img/twitter-glyph.svg"></a>
+	</div>
+</div>
+
+
 <section>
 	<div class="flexie col l-12 v-l-12">
 		<div class="v-l-12 l-12" id="section-1">
-			<div class="flexie col major-center minor-center l-12 v-l-12 black-overlay">
-				<img src="img/logo-white.svg" class="v-l-4">
-				<h3 class="l-4 m-6 s-8 text-center p-t-xxl grey-50">LLEVA EL JUEGO DE VERDAD O RETO AL SIGUIENTE NIVEL</h3>
+			<div class="flexie col major-center minor-center l-12 v-l-12 ">
+			<div class="gradient-overlay l-12 v-l-12"></div>
+				<img src="img/logo-white.svg" class="v-l-4 m-t-xxl">
+				<p class="l-4 m-6 s-8 text-center p-t-xxl grey-50">¡HAZ LO TUYO Y RETA AL MUNDO!</p>
 			</div>
 		</div>
 	</div>
 </section>
 	<!-- SECTION 1 END -->
+
+<section>
+	<div class="flexie row major-center l-12 v-l-12 bg-grey-50" id="render-1">
+		<div class="flexie col minor-start l-4 m-6 s-11 p-m">
+			<h2 class="grey-900 ">APPTRÉVETE</h2>
+			<p class="grey-800 l-10 m-10 s-12 p-t-xl">Es la plataforma de retos sociales. Llevamos el clásico juego de verdad o reto al siguiente nivel.<br><br>Diviértete con tu pareja y amigos, obtén beneficios, y apoya retos con causa social.</p>
+		</div>
+		<div class="flexie col l-4 m-4 s-4">
+			<img class="v-l-8 v-s-4" src="img/render-3-black.png">
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="flexie col l-12 v-l-12 bg-yellow-600" id="prueba">
+		<div class="flexie col minor-start l-6 m-8 s-11">
+			<h2 class="grey-900">PONTE A PRUEBA</h2>
+			<p class="grey-800 p-t-xl l-8 m-12">Comparte tu reto. Hazlos públicos o privados y se juzgado. Acepta cualquier reto y prueba que lo hiciste. Por imagen o video.<br>Participa en categorías desde fiesta y ocio hasta causas sociales.</p>
+		</div>
+		<div class="flexie row l-6 m-8 s-11 m-t-xxl">
+			<div div class="flexie col l-4 minor-center">
+				<h4 class="grey-900">PRO</h4>
+				<img class="h-xxxl" src="img/pro.png">
+			</div>
+			<div div class="flexie col l-4 minor-center">
+				<h4 class="grey-900">FUN</h4>
+				<img class="h-xxxl" src="img/fun.png">
+			</div>
+			<div div class="flexie col l-4 minor-center">
+				<h4 class="grey-900">CRAZY</h4>
+				<img class="h-xxxl" src="img/crazy.png">
+			</div>
+			<div div class="flexie col l-4 minor-center">
+				<h4 class="grey-900">WEIRD</h4>
+				<img class="h-xxxl" src="img/weird.png">
+			</div>
+			<div div class="flexie col l-4 minor-center">
+				<h4 class="grey-900">FAIL</h4>
+				<img class="h-xxxl" src="img/fail.png">
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="flexie col l-12 v-l-12" id="muestra">	
+		<div class="flexie col l-12 v-l-12 gradient-overlay"></div>
+		<div class="col l-6 m-8 s-11">		
+			<h2 class="grey-50 l-12">#PITCHEANDOALCHILE</h2>
+			<p class="grey-100">Brayham nos va a poner el ejemplo. Es muy sencillo</p>
+			<video class="l-12 p-t-xxl" controls>
+				<source src="vid/apptrevete-small.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+	</div>
+</section>
 	<!-- SECTION 2 START -->
 <section>
-	<div class="flexie col l-12 v-l-12 major-center minor-center bg-yellow-600"> 
-		<canvas id="c"></canvas>
-		<h1 class="grey-900 l-6 m-8 s-11 text-left">1.-<br>REGÍSTRATE</h1>
-		<p class="grey-900 l-6 m-8 s-11 text-left">Nada difícil. Promesa.</p>
-
+	<div class="flexie col l-12 v-l-12 major-center minor-center bg-amber-600" id="section-2"> 
+		<div class="col l-6 m-8 s-11">
+			<h5 class="grey-800 p-b-s">Es fácil ser parte de la comunidad:</h5>
+			<h1 class="grey-900 l-12 text-left">1.-<br>REGÍSTRATE</h1>
+			<p class="grey-900 l-12 text-left">Nada difícil. Promesa.</p>
+			<div class="row p-t-l">
+				<img class="p-x-s" src="img/registrate.png">
+				<img class="p-x-s" src="img/registrate (1).png">
+			</div>
+		</div>	
 	</div>
 </section>
 	<!-- SECTION 2 END -->
 	<!-- SECTION 3 START -->
 <section>
 	<div class="flexie col l-12 v-l-12 major-center minor-center bg-red" id="section-3"> 
-		<h1 class="grey-50 l-6 m-8 s-11 text-left">2.-<br>INVITA A TUS AMIGOS</h1>
-		<p class="grey-50 l-6 m-8 s-11 text-left">Comparte a tus redes sociales, o por Apptrévete.</p>
+	<div class="col l-6 m-8 s-11">
+		<h1 class="grey-50 l-12 text-left">2.-<br>INVITA A TUS AMIGOS</h1>
+		<p class="grey-50 l-12text-left">Comparte a tus redes sociales, o por Apptrévete.</p>
+		<div class="row p-t-l">
+			<img class="l-2 p-x-s" src="img/friend-1.png">
+			<img class="l-2 p-x-s" src="img/friend-2.png">
+			<img class="l-2 p-x-s" src="img/friend-3.png">
+			<img class="l-2 p-x-s" src="img/friend-4.png">
+		</div>
 	</div>
+	</div>
+
 </section>
 	<!-- SECTION 3 END -->
 	<!-- SECTION 4 START -->
 <section>
-	<div class="flexie col l-12 v-l-12 major-center minor-center bg-lime" id="section-4"> 
-		<h1 class="grey-900 l-6 m-8 s-11 text-left">3.-<br>CREA O ACEPTA UN RETO</h1>
-		<p class="grey-900 l-6 m-8 s-11 text-left">Comparte con tus amigos, por medio de foto o video.<br><br>(También puedes contribuir a causas sociales)</p>
+	<div class="flexie col l-12 v-l-12 major-center minor-center bg-amber" id="section-4"> 
+		<div class="col l-6 m-8 s-11">
+
+			<h1 class="grey-900 l-12 text-left">3.-<br>CREA O ACEPTA UN RETO</h1>
+			<p class="grey-900 l-12 text-left">Comparte con tus amigos, por medio de foto o video.<br>(También puedes contribuir a causas sociales)</p>
+			<div class="row p-t-l">
+				<img class="l-2 p-x-s" src="img/reto-1.png">
+				<img class="l-2 p-x-s" src="img/reto-2.png">
+				<img class="l-2 p-x-s" src="img/reto-3.png">
+				<img class="l-2 p-x-s" src="img/reto-4.png">
+			</div>
+		</div>
 	</div>
 </section>
 	<!-- SECTION 4 END -->
 	<!-- SECTION 5 START -->
 <section>
 	<div class="flexie col l-12 v-l-12 major-center minor-center bg-blue" id="section-5"> 
-		<h1 class="grey-50 l-6 m-8 s-11 text-left">4.-<br>CALIFÍCA LAS RESPUESTAS</h1>
-		<p class="grey-50 l-6 m-8 s-11 text-left">Yay or nay. Sí o no. Pasa, o no pasa.</p>
+		<div class="col l-6 m-8 s-11">
+			<h1 class="grey-50 l-12 text-left">4.-<br>CALIFÍCA LAS RESPUESTAS</h1>
+			<p class="grey-50 l-12 text-left">Yay or nay. Sí o no. Pasa, o no pasa.</p>
+			<div class="row p-t-l">
+				<img class="l-2 p-x-s" src="img/respuesta-1.png">
+				<img class="l-2 p-x-s" src="img/respuesta-2.png">
+				<img class="l-2 p-x-s" src="img/respuesta-3.png">
+				<img class="l-2 p-x-s" src="img/respuesta-4.png">
+			</div>
+		</div>
 	</div>
 </section>
 	<!-- SECTION 5 END -->
 	<!-- SECTION 6 START -->
 <section>
 	<div class="flexie col l-12 v-l-12 major-center minor-center bg-amber-600" id="section-6"> 
-		<h1 class="grey-900 l-6 m-8 s-11 text-left">YA ERES PARTE DE LA COMUNIDAD MÁS ATREVIDA EN INTERNET.</h1>
+		<h1 class="grey-900 l-6 m-8 s-11 text-left">SERÁS PARTE DE LA COMUNIDAD MÁS ATREVIDA EN INTERNET.</h1>
+		<p>Sugiere un reto y nosotros lo lanzamos contigo.</p>
 	</div>
 </section>
 	<!-- SECTION 6 END -->	
 	<!-- SECTION 7 START -->
 <section>
-	<div class="flexie col l-12 v-l-12 major-center minor-center bg-grey-900 grey-50"> 
+	<div class="flexie col l-12 v-l-12 major-center minor-center bg-grey-900 grey-50" id="section-7"> 
 		<h1 class="l-6 m-8 s-11 text-left">MUY PRONTO EN IOS Y ANDROID</h1>
-		<p class="l-6 m-8 s-11 text-left p-y-s">Suscríbete para cuando esté lista, nosotros te avisamos.</p>
+		<p class="l-6 m-8 s-11 text-left p-y-s">Y también, en tu navegador favorito. Suscríbete para cuando esté lista, nosotros te avisamos.</p>
+		<div class="row l-6 m-8 s-11">
+			<img class="h-l m-y-xs"src="img/apple.svg">
+			<img class="h-l m-y-xs p-l-m"src="img/android.svg">
+		</div>
 		<form class="l-6 m-8 s-11 text-left p-y-s" action="http://formspree.io/contacto@apptrevete.com" method="POST">
 		    <input class="l-6 m-8 s-12 p-xs m-b-m" type="email" name="_replyto" placeholder="correo@tudominio.com"><br>
 		    <input class="l-6 m-8 s-12 p-xs bg-grey-50 grey-900" type="submit" value="ENVIAR">
@@ -104,23 +224,84 @@
 <script src="js/jquery-2.1.4/jquery-2.1.4.min.js"></script>
 <script src="js/global.js"></script>
 <!-- <script src="js/section-2-animation.js"></script> -->
-<script src="js/one-page-scroll/jquery.onepage-scroll.js"></script>
+<!-- <script src="js/one-page-scroll/jquery.onepage-scroll.js"></script> -->
+<script src="js/full-page/jquery.fullPage.js"></script>
 
 <script>
-$(".main").onepage_scroll({
-   sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
-   easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
-                                    // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
-   animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
-   pagination: false,                // You can either show or hide the pagination. Toggle true for show, false for hide.
-   updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
-   beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
-   afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
-   loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
-   keyboard: true,                  // You can activate the keyboard controls
-   responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
-                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
-                                    // the browser's width is less than 600, the fallback will kick in.
-   direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+        //Navigation
+        menu: false,
+        lockAnchors: false,
+        anchors:['firstPage', 'secondPage'],
+        navigation: false,
+        navigationPosition: 'right',
+        navigationTooltips: ['firstSlide', 'secondSlide'],
+        showActiveTooltip: false,
+        slidesNavigation: true,
+        slidesNavPosition: 'bottom',
+
+        //Scrolling
+        css3: true,
+        scrollingSpeed: 700,
+        autoScrolling: true,
+        fitToSection: true,
+        fitToSectionDelay: 1000,
+        scrollBar: false,
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
+        loopBottom: false,
+        loopTop: false,
+        loopHorizontal: true,
+        continuousVertical: false,
+        normalScrollElements: '#element1, .element2',
+        scrollOverflow: false,
+        touchSensitivity: 15,
+        normalScrollElementTouchThreshold: 5,
+
+        //Accessibility
+        keyboardScrolling: true,
+        animateAnchor: true,
+        recordHistory: true,
+
+        //Design
+        controlArrows: true,
+        verticalCentered: true,
+        resize : false,
+        sectionsColor : ['#ccc', '#fff'],
+        paddingTop: '3em',
+        paddingBottom: '10px',
+        fixedElements: '#header, .footer',
+        responsiveWidth: 0,
+        responsiveHeight: 0,
+
+        //Custom selectors
+        sectionSelector: '.section',
+        slideSelector: '.slide',
+
+        //events
+        onLeave: function(index, nextIndex, direction){},
+        afterLoad: function(anchorLink, index){},
+        afterRender: function(){},
+        afterResize: function(){},
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+    });
 });
-</script>
+// $(".main").onepage_scroll({
+//    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+//    easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
+//                                     // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+//    animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
+//    pagination: false,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+//    updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+//    beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+//    afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+//    loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+//    keyboard: true,                  // You can activate the keyboard controls
+//    responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
+//                                     // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+//                                     // the browser's width is less than 600, the fallback will kick in.
+//    direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+// });
+// </script>
