@@ -1,0 +1,122 @@
+/*	APPTREVETE SITE		*/
+/*	PABLO E. LUJAMBIO 	*/
+/*  GLOBAL.CSS	 	 	*/
+
+
+@font-face{
+	/*PROXIMA NOVA EXTRA BOLD*/
+	src:url(../fnt/PN-EB.otf);
+	font-family:PN-EB;
+}
+@font-face{
+	/*PROXIMA NOVA LIGHT ITALIC*/
+	src:url(../fnt/PN-LI.otf);
+	font-family:PN-LI;
+}
+@font-face{
+	/*PROXIMA NOVA LIGHT*/
+	src:url(../fnt/PN-L.otf);
+	font-family:PN-L;
+}
+@font-face{
+	/*PROXIMA NOVA REGULAR*/
+	src:url(../fnt/PN-R.otf);
+	font-family:PN-R;
+}
+body,
+html{
+	font-family:PN-R;
+}
+h1{
+	font-weight:normal;
+	font-family: PN-EB;
+}
+h2, h4{
+	font-family:PN-EB;
+}
+h3{
+	font-family:PN-LI;
+}
+
+p{
+	font-family:PN-L;
+}
+a{
+	transition:color .7s;
+}
+/* unvisited link */
+a:link {
+}
+
+/* visited link */
+a:visited {
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF5252;
+    transition:color .7s;
+}
+/* selected link */
+a:active {
+    color: #01579B;
+    transition:color .7s;
+}
+input[type="email"]{
+	font-size:18px;
+	font-family: PN-LI;
+}
+input[type="submit"]{
+	-webkit-appearance: none;
+	text-align:left;
+	font-size:18px;
+	font-family: PN-EB;
+	letter-spacing:.1em;
+}
+.full-page{
+	height:100%;
+	width:100%;
+	max-width: 100%;
+	max-height: 100%;
+	overflow-y:hidden;
+}
+
+.overlay.gold{
+	/*background-color:rgba(255,255,204,1);*/
+	background-color:rgba(251,239,191,.85);	
+	color:#212121;
+}
+.overlay.marroon{
+	/*background-color:rgba(255,255,204,1);*/
+	background-color:rgba(205,179,120,.85);	
+	color:#212121;
+}
+.overlay.black{
+	background-color:rgba(33,33,33,.95);
+	/*background-color:rgba(66,66,66,.8);*/
+	color:#EEEEEE;
+
+}
+.half-page{
+	height:50%;
+	width:100%;
+	max-width: 100%;
+	max-height: 50%;
+	overflow-y:hidden;s
+}
+.center{
+	text-align:center;
+}
+.spaced{
+	letter-spacing:1rem;
+}
+@media screen and (max-width:1024px){
+	.spaced{
+		letter-spacing:.5rem;
+	}
+}
+@media screen and (max-width:640px){
+	.spaced{
+		letter-spacing:.25rem;
+	}
+}
