@@ -74,9 +74,14 @@
 */
 #render-3-black{
 	background:url(../img/render-3-black.png);
-	background-size:100% auto;
+	background-size:90% auto;
 	background-repeat:no-repeat;
 	background-position:center center;
+}
+@media screen and (max-width:1025px){
+#render-3-black{
+	background-size:auto 90%;
+}	
 }
 #prueba{
 	background:url(../img/bg-04.svg);
@@ -98,7 +103,7 @@
 #section-1 img{
 }
 #section-3{
-	background:url(../img/bg-02.svg);
+	background:url(../img/bg-03.svg);
 }
 
 #section-5{

@@ -34,9 +34,6 @@
 	-webkit-align-content:center;
 	    -ms-flex-line-pack:center;
 	        align-content:center;
-	margin:auto;
-	min-width:auto;
-	min-height:auto;
 }
 .col{
 	-webkit-flex-flow: column wrap;
@@ -55,9 +52,6 @@
 	-webkit-align-content:center;
 	    -ms-flex-line-pack:center;
 	        align-content:center;
-	margin:auto;
-	min-width:auto;
-	min-height:auto;
 }
 .wrap{
 	-webkit-flex-wrap:wrap;
